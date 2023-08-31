@@ -28,8 +28,8 @@ const firebaseConfig = {
     projectId: "letmecook-f5091",
     storageBucket: "letmecook-f5091.appspot.com",
     messagingSenderId: "536669213528",
-    appId: "1:536669213528:web:8f8dc47710ba654b888b2d",
-    measurementId: "G-YFQ8KYM79X"
+    appId: "1:536669213528:web:c8b7a6d2006ac014888b2d",
+    measurementId: "G-V4Z1JJYFHM"
 };
 
 // Initialize Firebase

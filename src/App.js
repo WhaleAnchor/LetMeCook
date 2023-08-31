@@ -7,21 +7,27 @@ import Login from './components/Login'
 import Register from './components/Register';
 import Reset from './components/Reset';
 import Navbar from './components/Navbar';
+import WebWrapper from './pages/WebWrapper';
+import Recipe from './pages/Recipe';
 
 function App() {
-
+  
 
   return (
     <Router>
-    <Routes>
-      <>
-        <Route exact path="/" element={<Login />} />
-        <Route exact path="/register" element={<Register />} />
-        <Route exact path="/reset" element={<Reset />} />
-        <Route exact path="/navbar" element={<Navbar />} />
-      </>
-      </Routes>
+      <WebWrapper>
+        <Routes>
+          <>
+            <Route exact path="/" element={<Login />} />
+            <Route exact path="/register" element={<Register />} />
+            <Route exact path="/reset" element={<Reset />} />
+            <Route exact path="/navbar" element={<Navbar />} />
+            <Route exact path="/recipe" element={<Recipe />} />
+          </>
+        </Routes>
+      </WebWrapper>
     </Router>
+    
   );
 }
 
