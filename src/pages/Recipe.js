@@ -1,9 +1,17 @@
 import React from 'react';
+import "./Recipe.css";
 
 export function Recipe() {
     return (
-        <div>
-            this is recipe
+        <div className='recipe-wrapper'>
+            <div className='content-row'>
+                <div className='content-column'>
+                    recipe section
+                </div>
+                <div className='content-column'>
+                    recipe section 2
+                </div>
+            </div>
         </div>
     );
 };

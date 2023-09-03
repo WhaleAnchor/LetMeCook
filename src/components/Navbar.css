@@ -3,31 +3,39 @@
     background-color: #333; /* Background color of the navbar */
     color: #fff; /* Text color */
     padding: 10px 0; /* Padding on the top and bottom */
-  }
+    border-radius: 10px;
+    position: relative; /* Add this line to use position */
+    z-index: 1; /* Add this line to control the stacking order */
+}
+
   
-  .navbar-container {
+.navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* Adjust as needed */
+    max-width: auto; /* Adjust as needed */
     margin: 0 auto;
-    padding: 0 20px; /* Padding on the left and right */
-  }
+    padding: 10px; /* Padding on the left and right */
+}
   
-  .navbar-logo img {
-    max-width: 100px; /* Adjust as needed */
-  }
+.navbar-logo img {
+    margin: 0px;
+}
+
+.logoStyle {
+    max-width: 50px;
+}
   
-  .navbar-links a {
+.navbar-links a {
     text-decoration: none;
     color: #fff; /* Link text color */
     margin-right: 20px; /* Spacing between links */
-  }
+}
   
-  /* Media query for responsiveness */
-  @media screen and (max-width: 768px) {
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
     .navbar-links {
       display: none; /* Hide links on small screens */
     }
-  }
+}
   

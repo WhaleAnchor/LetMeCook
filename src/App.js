@@ -14,8 +14,7 @@ function App() {
   
 
   return (
-    <Router>
-      <WebWrapper>
+      <WebWrapper className="App">
         <Routes>
           <>
             <Route exact path="/" element={<Login />} />
@@ -26,7 +25,6 @@ function App() {
           </>
         </Routes>
       </WebWrapper>
-    </Router>
     
   );
 }

@@ -1,0 +1,21 @@
+.recipe-wrapper {
+    background-color: white;
+    height: 100vp;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.content-row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-column {
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+    border: 10px solid black;
+
+}
