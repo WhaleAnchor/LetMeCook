@@ -4,7 +4,8 @@ create amazon cart
 https://webservices.amazon.com/paapi5/documentation/add-to-cart-form.html
 
 recipe 
-https://api2.bigoven.com/
+https://api2.bigoven.com/ (paid)
+https://developer.edamam.com/edamam-docs-recipe-api
 
 I'm thinking of a more streamlined approach to buying groceries for the purpose of creating a specific dish (recipes). I want to have the navbar and the main content be "floating" above the background. The background will consist of vertical columns of colors that dynamically move based on the "phase" of the navbar. I want to have 3-4 sections.
     1. recipe lookup
