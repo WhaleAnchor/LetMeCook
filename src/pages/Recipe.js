@@ -6,10 +6,18 @@ export function Recipe() {
         <div className='recipe-wrapper'>
             <div className='content-row'>
                 <div className='content-column'>
-                    recipe section
+                    <div className='column-section'>
+                        recipe section 1
+                        recipe section 1.2
+                    </div>
                 </div>
                 <div className='content-column'>
-                    recipe section 2
+                    <div className='column-section'>
+                        <div>
+                            recipe section 2
+                        </div>
+                        recipe section 2.2
+                    </div>
                 </div>
             </div>
         </div>
