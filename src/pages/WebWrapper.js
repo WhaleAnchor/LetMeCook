@@ -2,14 +2,14 @@ import React from "react";
 import Navbar from '../components/Navbar';
 import './WebWrapper.css';
 
-import Recipe from './Recipe'
+import Recipes from './Recipes'
 
 function WebWrapper() {
     return (
         <div className="web-wrapper">
             <div className="main-content">
                 <Navbar />
-                <Recipe />
+                <Recipes />
             </div>
         </div>
     );

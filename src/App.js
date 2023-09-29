@@ -8,7 +8,7 @@ import Register from './components/Register';
 import Reset from './components/Reset';
 import Navbar from './components/Navbar';
 import WebWrapper from './pages/WebWrapper';
-import Recipe from './pages/Recipe';
+import Recipes from './pages/Recipes';
 
 function App() {
   
@@ -21,7 +21,7 @@ function App() {
             <Route exact path="/register" element={<Register />} />
             <Route exact path="/reset" element={<Reset />} />
             <Route exact path="/navbar" element={<Navbar />} />
-            <Route exact path="/recipe" element={<Recipe />} />
+            <Route exact path="/recipe" element={<Recipes />} />
           </>
         </Routes>
       </WebWrapper>
