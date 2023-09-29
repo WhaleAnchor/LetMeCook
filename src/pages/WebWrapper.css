@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.web-wrapper {
+    background-color: rgb(170, 221, 245);
+    height:100vh;
+    width:auto;
+}
+
+.main-content {
+    padding:10px;
+}

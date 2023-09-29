@@ -1,17 +1,14 @@
 import React from "react";
 import Logo from "../assets/letmecookicon.png";
-import "./Navbar.css"; // Import your CSS file for styling
+import "./Navbar.css";
 
 export function Navbar() {
-  const logoStyle = {
-    maxWidth: "100px", // Adjust this value as needed
-  };
 
   return (
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src={Logo} alt="LetMeCook Icon" style={logoStyle} />
+          <img src={Logo} alt="LetMeCook Icon" className="logoStyle" />
         </div>
         <div className="navbar-links">
           <a href="/">Home</a>
