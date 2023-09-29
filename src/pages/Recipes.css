@@ -1,0 +1,74 @@
+/* Recipes.css */
+
+/* Style for the container of the entire component */
+.recipes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+  /* Style for the "Back" button */
+  .back-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the container of category cards */
+  .category-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+    max-height: 240px; /* Set a maximum height */
+    overflow-y: auto; /* Add a vertical scrollbar when needed */
+  }
+
+  .recipe-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-height: 400px; /* Set a maximum height for the recipe list */
+    overflow-y: auto; /* Add a vertical scrollbar when needed */
+  }
+  
+  /* Style for individual category cards */
+  .category-card {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer; /* Add cursor pointer for better user feedback */
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Style for the card title */
+  .category-card h3 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  /* Style for the Font Awesome icons */
+  .category-card .fa-icon {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #007bff;
+  }
+  
