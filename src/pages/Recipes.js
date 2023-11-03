@@ -13,7 +13,7 @@ function Recipes() {
   const [selectedIngredient, setSelectedIngredient] = useState(null);
   const [recipes, setRecipes] = useState([]);
   const [loading, setLoading] = useState(false);
-
+  
   useEffect(() => {
     // Fetch recipes when the component mounts
     if (selectedIngredient) {
